@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* Grace Freeman's MI349 CSS
+COLOR SCHEME
+paper: #D5D5D5
+dusty mauve: #96858F
+blue lavendar: #6D7993
+overcast grey: #9099A2
+text grey: #818181
+pumpkin: #df744a
+
+*/
+#wrapper {
+	font-family: myriad Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	text-decoration-color: #df744a;
+	font-style: normal;
+	font-weight: 400;
+	}
+
+#paragraph {
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+color: #96858F;
+}
+
+#nav {
+list-style-type: none;
+text-align: center;
+background-color: #d5d5d5
+padding: 8px;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+text-decoration: none ;
+color:#6d7993;
+padding: 8px;
+margin-left: -4px;
+}
+
+#nav a:hover {
+	color: white;
+	padding: 8px;
+}
+
+/* background */
+
+html {
+	padding: 5px;
+	background-color: #d5d5d5}
+
+body {
+	background-color: #D5D5D5}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	background-color: #d5d5d5;
+	color: #6d7993;
+}
+
+h2 {
+	font-family: helvetica;
+	background-color: #d5d5d5;
+	bordercolor: #9099a2;
+	text-align: center;
+	padding: 7px;
+	color: #96858f;
+
+}
+
+h3 {
+	color: #9099a2;
+	font: helvetica;
+	padding: 12px;
+}
+
+#mission {
+text-align: center;
+font: helvetica Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #96858f;
+font-size:12px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.img-circle{
+	text-align: center;
+}
+
+.img-circle img {
+	border-radius: 50%;
+}
+
+img {
+	padding: 12px;
+}
+
+
+/* links */
+a {
+  font-weight: bold;
+  padding: 10px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#footer {
+	padding: 8px;
+	background-color: #d5d5d5;
+	text-align: left;
+	color: #6d7993;
+	font-weight: lighter;
+	font-family: helvetica;
+	font-size: 10px;
+	}
+
+#footer a:hover {
+transform: none;
+}
+
+.banner {
+	color: #D5D5D5
+}
+.xhtml {
+	float: right;
+	border: none;
+}
